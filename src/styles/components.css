@@ -25,6 +25,7 @@
   height: 60vh;
 }
 .navbar .nav-options {
+  width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;

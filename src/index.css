@@ -5,3 +5,8 @@ html, body{
   background-color: #2C2C2C;
 }
 
+
+NavLink{
+  text-decoration: none;
+  color: inherit;
+}

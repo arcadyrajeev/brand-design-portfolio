@@ -21,7 +21,7 @@
   justify-content: space-evenly;
   width: 16vw;
   background-color: #000;
-  border-radius: 0 3rem 3rem 0rem;
+  border-radius: 0 2rem 2rem 0rem;
   height: 60vh;
 }
 .navbar .nav-options {
@@ -29,10 +29,10 @@
   align-items: center;
   flex-direction: column;
   font-family: sans-serif;
-  font-size: 1rem;
+  font-size: 0.76rem;
   color: white;
 }
 .navbar .nav-options img {
-  transform: scale(0.9);
+  transform: scale(0.6);
   margin-bottom: 0.5rem;
 }/*# sourceMappingURL=components.css.map */

@@ -1,0 +1,98 @@
+@import "./font";
+
+.header {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  height: auto;
+  justify-content: space-between;
+
+  .left {
+    display: flex;
+    width: 15%;
+    margin-left: 1.4rem;
+    height: fit-content;
+    align-items: center;
+  }
+
+  .right {
+    display: flex;
+    width: 50%;
+    color: white;
+    margin-right: 1.4rem;
+    font-family: "kufam", sans-serif;
+    align-items: center;
+    justify-content: end;
+  }
+}
+
+.home-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  color: white;
+  margin-top: 3rem;
+
+  .head {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    align-items: end;
+
+    h1 {
+      margin: 0.4rem;
+      font-family: "Krona", sans-serif;
+      font-size: 2.2rem;
+      font-weight: 400;
+      letter-spacing: 0.1.5rem;
+    }
+
+    #design {
+      margin-right: 3rem;
+    }
+  }
+
+  .tagline {
+    width: 70%;
+    display: flex;
+    margin-right: 4rem;
+    margin-top: 2.5rem;
+    text-align: right;
+    flex-direction: column;
+    text-transform: uppercase;
+
+    h1 {
+      font-family: "kufam", sans-serif;
+      font-size: 1rem;
+      font-weight: 600;
+      margin: 0;
+    }
+  }
+
+  .card-wrapper {
+    width: 100%;
+    display: flex;
+    margin-top: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .brand-card {
+      width: 60vw;
+      height: 60vw;
+      margin-top: 1.2rem;
+      background-color: azure;
+      border-radius: 2rem;
+      display: flex;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+  }
+}

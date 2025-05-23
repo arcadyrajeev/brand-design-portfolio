@@ -5,27 +5,27 @@ export default function HomeContent() {
   const icons = [
     {
       name: "Montrose",
-      imglink: "/Logos/montrose.png",
+      imglink: "/Logos/montrose.webp",
     },
 
     {
       name: "Archviz",
-      imglink: "/Logos/arch.png",
+      imglink: "/Logos/arch.webp",
     },
 
     {
       name: "Lunaria",
-      imglink: "/Logos/lunaria.png",
+      imglink: "/Logos/lunaria.webp",
     },
 
     {
       name: "Render Poetry",
-      imglink: "/Logos/rp.png",
+      imglink: "/Logos/rp.webp",
     },
 
     {
       name: "Sup",
-      imglink: "/Logos/sup.png",
+      imglink: "/Logos/sup.webp",
     },
   ];
 

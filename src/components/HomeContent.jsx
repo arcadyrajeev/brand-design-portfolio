@@ -45,7 +45,7 @@ export default function HomeContent() {
       <div className="card-wrapper">
         {icons.map((icon, idx) => (
           <div key={idx} className="brand-card">
-            <img src={icon.imglink} />
+            <img src={icon.imglink} loading="lazy" alt={icon.name} />
           </div>
         ))}
       </div>
